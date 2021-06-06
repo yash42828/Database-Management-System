@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title> PHP DELETE DATA </title>  
+        <link rel="stylesheet" href="css/bootstrap.min.css">      
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    </head>
+    <body>
+	<table align="right">
+		<th>
+            <form action="design.html" method="post">  
+                <input type="submit" name="generate_pdf" class="btn btn-success" value="Home" />  
+            </form> 
+		</th>
+	</table>
+
+        <form action="delete.php" method="post">
+            <table align="left">
+                <th width="30%">                 
+                        &nbsp; &nbsp;  ID TO DELETE:&nbsp; &nbsp; <input type="text" name="id" id="n" required><br><br>
+                        </th> <br>
+                        <tr></tr> 
+            <th>
+                    &nbsp; &nbsp;   <input type="submit" name="delete" value="Delete" class="btn btn-success">
+                </th>
+            </table>
+        </form>
+    </body>
+</html>

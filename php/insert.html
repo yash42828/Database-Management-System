@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html>  
+      <head>  
+           <title>SoftAOX | Generate HTML Table Data To PDF From MySQL Database Using TCPDF In PHP</title>  
+           <link rel="stylesheet" href="css/bootstrap.min.css">         
+      </head>  
+      <body>  
+                  <table align="right">
+					<th>
+                     <form action="design.html" method="post">  
+                          <input type="submit" name="Home" class="btn btn-success" value="Home" />  
+                     </form> 
+                              </th>
+                  </table>
+           <br />
+           <div class="container">  
+                <h3 align="center">Details Entry</h3><br />  
+                <div class="table-responsive">  
+                <div class="col-md-12" align="center">
+                     <form action="getdata.php" method="post"> 
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<input type="text" name="id"/> <br><br>
+						CUSTOMER NAME:<input type="text" name="name"/> <br><br>
+						&nbsp;&nbsp;AGE:&nbsp;&nbsp;&nbsp;&nbsp;  <input type="text" name="age"/> <br><br>
+						&nbsp;&nbsp;EMAIL:&nbsp;&nbsp;&nbsp;<input type="text" name="mail"/> <br><br>
+                          <input type="submit" name="generate_pdf" class="btn btn-success" value="Submit" />  
+                     </form>  
+                     </div>
+                     <br/>
+                     <br/>
+                     <!--<table class="table table-bordered">  
+                          <tr>  
+                               <th width="5%">Id</th>  
+                               <th width="30%">Name</th>  
+                               <th width="15%">Age</th>  
+                               <th width="50%">Email</th>  
+                          </tr>  
+                    
+                     </table>  -->
+	 
+                </div>  
+           </div>  
+      </body>  
+</html>  
